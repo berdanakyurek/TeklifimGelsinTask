@@ -1,4 +1,4 @@
-import { Alert, BottomNavigation, Button, Grid, Paper, Snackbar, Typography } from "@mui/material";
+import { Alert, BottomNavigation, Button, Grid, Link, Paper, Snackbar, Typography } from "@mui/material";
 import { useGetFactQuery } from "src/services/FactApi";
 import { FactTypes } from "./FactsTab";
 import RefreshIcon from '@mui/icons-material/Refresh';
@@ -108,6 +108,12 @@ const Fact = (props: IFactProps):JSX.Element => {
         <Typography>{query?.data?.text}</Typography>      
       </Grid>
 
+      <Link
+        href="https://github.com/berdanakyurek/TeklifimGelsinTask"
+        target="_blank"
+      >
+        Source Code
+      </Link>
     </Grid>
     
   );

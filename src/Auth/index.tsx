@@ -1,4 +1,4 @@
-import { Box, Paper, Tab, Tabs } from "@mui/material";
+import { Box, Link, Paper, Tab, Tabs } from "@mui/material";
 import TabPanel from "../components/TabPanel";
 import { useState } from "react";
 import Login from "./Login";
@@ -25,7 +25,12 @@ const Auth = ():JSX.Element => {
       <TabPanel value={value} index={1}>
         <SignUp /> 
       </TabPanel>
-      
+      <Link
+        href="https://github.com/berdanakyurek/TeklifimGelsinTask"
+        target="_blank"
+      >
+        Source Code
+      </Link>
     </Paper>
   );
 }
