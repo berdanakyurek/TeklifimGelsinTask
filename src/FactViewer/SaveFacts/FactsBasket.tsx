@@ -14,7 +14,7 @@ const FactsBasket = ():JSX.Element => {
   const columns: Array<GridColDef<Fact>> = [
     {
       field: 'text',
-      headerName: "Fact",
+      headerName: "",
       flex: 1,
       type: 'string',
     },

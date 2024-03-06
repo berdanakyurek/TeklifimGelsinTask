@@ -131,6 +131,7 @@ const SignUp = ():JSX.Element => {
       
       <Grid item xs={12}>
         <Button
+          
           onClick={formik.submitForm}
         >
           Sign Up

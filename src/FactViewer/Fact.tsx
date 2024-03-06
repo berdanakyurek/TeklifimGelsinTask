@@ -1,4 +1,4 @@
-import { Alert, Button, Grid, Snackbar, Typography } from "@mui/material";
+import { Alert, BottomNavigation, Button, Grid, Paper, Snackbar, Typography } from "@mui/material";
 import { useGetFactQuery } from "src/services/FactApi";
 import { FactTypes } from "./FactsTab";
 import RefreshIcon from '@mui/icons-material/Refresh';
@@ -107,7 +107,9 @@ const Fact = (props: IFactProps):JSX.Element => {
       <Grid item xs={12}>
         <Typography>{query?.data?.text}</Typography>      
       </Grid>
+
     </Grid>
+    
   );
 }
 export default Fact;
