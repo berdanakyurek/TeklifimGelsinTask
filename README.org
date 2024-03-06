@@ -1,5 +1,5 @@
 * TeklifimGelsin Task
-  This [[][task]] is implemented as a part of my job application to [[https://teklifimgelsin.com/][TeklifimGelsin]]
+  This [[https://github.com/berdanakyurek/TeklifimGelsinTask/blob/main/task.pdf][task]] is implemented as a part of my job application to [[https://teklifimgelsin.com/][TeklifimGelsin]]
 
   A website you can create a user and login, view a random fact and save the facts you like locally,
   using [[https://uselessfacts.jsph.pl/][Useless Facts API]].
