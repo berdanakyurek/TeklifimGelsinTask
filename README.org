@@ -1,0 +1,9 @@
+* TeklifimGelsin Task
+  This [[][task]] is implemented as a part of my job application to [[https://teklifimgelsin.com/][TeklifimGelsin]]
+
+  A website you can create a user and login, view a random fact and save the facts you like locally,
+  using [[https://uselessfacts.jsph.pl/][Useless Facts API]].
+
+  [[login][MUI]] is used for UI and [[https://redux-toolkit.js.org/rtk-query/overview][RTK Query]] is used for API calls.
+
+  Live version of the project can be reached [[][here]].
